@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -919,6 +919,20 @@
 		C8550B4D1D95A41400A6FCFE /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8550B4A1D95A41400A6FCFE /* Reactive.swift */; };
 		C8550B4E1D95A41400A6FCFE /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8550B4A1D95A41400A6FCFE /* Reactive.swift */; };
 		C8561B661DFE1169005E97F1 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8561B651DFE1169005E97F1 /* ExampleTests.swift */; };
+		C8572C5E21863E3F00FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C5D21863E3F00FD24D2 /* AtomicInt.swift */; };
+		C8572C5F21863E3F00FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C5D21863E3F00FD24D2 /* AtomicInt.swift */; };
+		C8572C6021863E3F00FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C5D21863E3F00FD24D2 /* AtomicInt.swift */; };
+		C8572C6121863E3F00FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C5D21863E3F00FD24D2 /* AtomicInt.swift */; };
+		C8572C6321863E8600FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C6221863E8600FD24D2 /* AtomicInt.swift */; };
+		C8572C6421863E8600FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C6221863E8600FD24D2 /* AtomicInt.swift */; };
+		C8572C6521863E8600FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C6221863E8600FD24D2 /* AtomicInt.swift */; };
+		C8572C6621863E8600FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C6221863E8600FD24D2 /* AtomicInt.swift */; };
+		C8572C68218645F700FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C67218645F700FD24D2 /* AtomicInt.swift */; };
+		C8572C69218645F700FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C67218645F700FD24D2 /* AtomicInt.swift */; };
+		C8572C6A218645F700FD24D2 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8572C67218645F700FD24D2 /* AtomicInt.swift */; };
+		C8572C6D21864BF100FD24D2 /* RxAtomic.c in Sources */ = {isa = PBXBuildFile; fileRef = C8572C6C21864BF100FD24D2 /* RxAtomic.c */; };
+		C8572C7021864E6A00FD24D2 /* RxAtomic.h in Headers */ = {isa = PBXBuildFile; fileRef = C8572C6F21864E6A00FD24D2 /* RxAtomic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8572C722186678900FD24D2 /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85E5CD12185DCA600E8CCDA /* RxAtomic.framework */; };
 		C85B01691DB2ACAF006043C3 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85B01671DB2ACAF006043C3 /* Platform.Darwin.swift */; };
 		C85B016A1DB2ACAF006043C3 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85B01671DB2ACAF006043C3 /* Platform.Darwin.swift */; };
 		C85B016B1DB2ACAF006043C3 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85B01671DB2ACAF006043C3 /* Platform.Darwin.swift */; };
@@ -1626,6 +1640,55 @@
 			remoteGlobalIDString = C88FA50E1C25C4B500CCFEA4;
 			remoteInfo = "RxTest-OSX";
 		};
+		C8507B5D21862D4200EAE7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85E5CD02185DCA600E8CCDA;
+			remoteInfo = RxAtomic;
+		};
+		C8572C502186398A00FD24D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85E5CD02185DCA600E8CCDA;
+			remoteInfo = RxAtomic;
+		};
+		C8572C522186399D00FD24D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85E5CD02185DCA600E8CCDA;
+			remoteInfo = RxAtomic;
+		};
+		C8572C54218639A300FD24D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85E5CD02185DCA600E8CCDA;
+			remoteInfo = RxAtomic;
+		};
+		C8572C56218639AE00FD24D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85E5CD02185DCA600E8CCDA;
+			remoteInfo = RxAtomic;
+		};
+		C8572C58218639BF00FD24D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85E5CD02185DCA600E8CCDA;
+			remoteInfo = RxAtomic;
+		};
+		C8572C5A218639C500FD24D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85E5CD02185DCA600E8CCDA;
+			remoteInfo = RxAtomic;
+		};
 		C85BA05B1C3878D00075D68E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
@@ -1653,6 +1716,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = C88FA50E1C25C4B500CCFEA4;
 			remoteInfo = "RxTest-OSX";
+		};
+		C85E5CDC2185F55300E8CCDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85E5CD02185DCA600E8CCDA;
+			remoteInfo = RxAtomic;
 		};
 		C872BD1B1BC0529600D7175E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2076,11 +2146,19 @@
 		C85218041E33FCA50015DD38 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		C8550B4A1D95A41400A6FCFE /* Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reactive.swift; sourceTree = "<group>"; };
 		C8561B651DFE1169005E97F1 /* ExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
+		C8572C5D21863E3F00FD24D2 /* AtomicInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtomicInt.swift; path = Platform/AtomicInt.swift; sourceTree = SOURCE_ROOT; };
+		C8572C6221863E8600FD24D2 /* AtomicInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomicInt.swift; sourceTree = "<group>"; };
+		C8572C67218645F700FD24D2 /* AtomicInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomicInt.swift; sourceTree = "<group>"; };
+		C8572C6B2186483300FD24D2 /* AtomicInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicInt.swift; sourceTree = "<group>"; };
+		C8572C6C21864BF100FD24D2 /* RxAtomic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RxAtomic.c; sourceTree = "<group>"; };
+		C8572C6F21864E6A00FD24D2 /* RxAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxAtomic.h; sourceTree = "<group>"; };
 		C85B01671DB2ACAF006043C3 /* Platform.Darwin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.Darwin.swift; sourceTree = "<group>"; };
 		C85B01681DB2ACAF006043C3 /* Platform.Linux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.Linux.swift; sourceTree = "<group>"; };
 		C85B01721DB2ACF2006043C3 /* Platform.Darwin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.Darwin.swift; sourceTree = "<group>"; };
 		C85B01731DB2ACF2006043C3 /* Platform.Linux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.Linux.swift; sourceTree = "<group>"; };
 		C85BA04B1C3878740075D68E /* PerformanceTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PerformanceTests.app; path = Microoptimizations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85E5CD12185DCA600E8CCDA /* RxAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85E5CD42185DCA600E8CCDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C85E6FBB1F52FF4F00C5681E /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
 		C85E6FBD1F53025700C5681E /* SchedulerType+SharedSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SchedulerType+SharedSequence.swift"; sourceTree = "<group>"; };
 		C86781471DB8119900B2029A /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
@@ -2294,6 +2372,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8572C722186678900FD24D2 /* RxAtomic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2329,6 +2408,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C85BA0481C3878740075D68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85E5CCE2185DCA600E8CCDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2695,6 +2781,7 @@
 		C81B6AA71DB2C15C0047CF86 /* Platform */ = {
 			isa = PBXGroup;
 			children = (
+				C8572C67218645F700FD24D2 /* AtomicInt.swift */,
 				C8F03F4E1DBBAE9400AECC4C /* DispatchQueue+Extensions.swift */,
 				C81B6AA81DB2C15C0047CF86 /* Platform.Darwin.swift */,
 				C81B6AA91DB2C15C0047CF86 /* Platform.Linux.swift */,
@@ -2946,9 +3033,18 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		C8572C6E21864E6A00FD24D2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C8572C6F21864E6A00FD24D2 /* RxAtomic.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		C85B01661DB2ACAF006043C3 /* Platform */ = {
 			isa = PBXGroup;
 			children = (
+				C8572C6221863E8600FD24D2 /* AtomicInt.swift */,
 				C85B01671DB2ACAF006043C3 /* Platform.Darwin.swift */,
 				C85B01681DB2ACAF006043C3 /* Platform.Linux.swift */,
 				C85217FB1E33FBFB0015DD38 /* RecursiveLock.swift */,
@@ -2959,6 +3055,7 @@
 		C85B01711DB2ACF2006043C3 /* Platform */ = {
 			isa = PBXGroup;
 			children = (
+				C8572C6B2186483300FD24D2 /* AtomicInt.swift */,
 				C86781461DB8119900B2029A /* DataStructures */,
 				C85217F41E33F9D70015DD38 /* RecursiveLock.swift */,
 				C85B01721DB2ACF2006043C3 /* Platform.Darwin.swift */,
@@ -2966,6 +3063,16 @@
 				C8F03F441DBBA61B00AECC4C /* DispatchQueue+Extensions.swift */,
 			);
 			path = Platform;
+			sourceTree = "<group>";
+		};
+		C85E5CD22185DCA600E8CCDA /* RxAtomic */ = {
+			isa = PBXGroup;
+			children = (
+				C8572C6E21864E6A00FD24D2 /* include */,
+				C85E5CD42185DCA600E8CCDA /* Info.plist */,
+				C8572C6C21864BF100FD24D2 /* RxAtomic.c */,
+			);
+			path = RxAtomic;
 			sourceTree = "<group>";
 		};
 		C85E6FBA1F52FF4F00C5681E /* Signal */ = {
@@ -3246,6 +3353,7 @@
 			children = (
 				C85B01711DB2ACF2006043C3 /* Platform */,
 				C8D2C1501D4F3CD6006E2431 /* Rx.playground */,
+				C85E5CD22185DCA600E8CCDA /* RxAtomic */,
 				C8093C471B8A72BE0088E94D /* RxSwift */,
 				C8093F571B8A73A20088E94D /* RxBlocking */,
 				C8093E801B8A732E0088E94D /* RxCocoa */,
@@ -3280,6 +3388,7 @@
 				C83509941C38742C0027C24C /* AllTests-macOS.xctest */,
 				C85BA04B1C3878740075D68E /* PerformanceTests.app */,
 				C8E8BA551E2C181A00A4AC2C /* Benchmarks.xctest */,
+				C85E5CD12185DCA600E8CCDA /* RxAtomic.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3295,6 +3404,7 @@
 		C8BF34C81C2E426800416CAE /* Platform */ = {
 			isa = PBXGroup;
 			children = (
+				C8572C5D21863E3F00FD24D2 /* AtomicInt.swift */,
 				C867816B1DB8129E00B2029A /* DataStructures */,
 				C8BF34C91C2E426800416CAE /* Platform.Darwin.swift */,
 				C8BF34CA1C2E426800416CAE /* Platform.Linux.swift */,
@@ -3377,6 +3487,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85E5CCC2185DCA600E8CCDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8572C7021864E6A00FD24D2 /* RxAtomic.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3527,6 +3645,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C8507B5E21862D4200EAE7A6 /* PBXTargetDependency */,
 				C872BD241BC052B800D7175E /* PBXTargetDependency */,
 			);
 			name = "RxBlocking-iOS";
@@ -3546,6 +3665,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C8572C532186399D00FD24D2 /* PBXTargetDependency */,
 				C872BD261BC052BB00D7175E /* PBXTargetDependency */,
 			);
 			name = "RxBlocking-macOS";
@@ -3637,6 +3757,24 @@
 			productReference = C85BA04B1C3878740075D68E /* PerformanceTests.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C85E5CD02185DCA600E8CCDA /* RxAtomic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85E5CD92185DCA600E8CCDA /* Build configuration list for PBXNativeTarget "RxAtomic" */;
+			buildPhases = (
+				C85E5CCC2185DCA600E8CCDA /* Headers */,
+				C85E5CCD2185DCA600E8CCDA /* Sources */,
+				C85E5CCE2185DCA600E8CCDA /* Frameworks */,
+				C85E5CCF2185DCA600E8CCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxAtomic;
+			productName = RxAtomic;
+			productReference = C85E5CD12185DCA600E8CCDA /* RxAtomic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		C88BB81A1B07E5ED0064D411 /* RxSwift-macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88BB86E1B07E5ED0064D411 /* Build configuration list for PBXNativeTarget "RxSwift-macOS" */;
@@ -3649,6 +3787,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C8572C512186398A00FD24D2 /* PBXTargetDependency */,
 			);
 			name = "RxSwift-macOS";
 			productName = RxSwift;
@@ -3743,6 +3882,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C85E5CDD2185F55300E8CCDA /* PBXTargetDependency */,
 			);
 			name = "RxSwift-iOS";
 			productName = RxSwift;
@@ -3780,6 +3920,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C8572C5B218639C500FD24D2 /* PBXTargetDependency */,
 			);
 			name = "RxSwift-watchOS";
 			productName = RxSwift;
@@ -3817,6 +3958,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C8572C57218639AE00FD24D2 /* PBXTargetDependency */,
 				C872BD2A1BC052C200D7175E /* PBXTargetDependency */,
 			);
 			name = "RxBlocking-watchOS";
@@ -3855,6 +3997,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C8572C59218639BF00FD24D2 /* PBXTargetDependency */,
 			);
 			name = "RxSwift-tvOS";
 			productName = RxSwift;
@@ -3873,6 +4016,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C8572C55218639A300FD24D2 /* PBXTargetDependency */,
 				C872BD281BC052BF00D7175E /* PBXTargetDependency */,
 			);
 			name = "RxBlocking-tvOS";
@@ -3887,7 +4031,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Krunoslav Zaher";
 				TargetAttributes = {
 					C80938F51B8A71760088E94D = {
@@ -3916,6 +4060,9 @@
 					C85BA04A1C3878740075D68E = {
 						CreatedOnToolsVersion = 7.2;
 						LastSwiftMigration = 0800;
+					};
+					C85E5CD02185DCA600E8CCDA = {
+						CreatedOnToolsVersion = 10.0;
 					};
 					C88BB81A1B07E5ED0064D411 = {
 						LastSwiftMigration = 0800;
@@ -3947,7 +4094,7 @@
 				};
 			};
 			buildConfigurationList = C8A56AD11AD7424700B4673B /* Build configuration list for PBXProject "Rx" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -3980,6 +4127,7 @@
 				C83509931C38742C0027C24C /* AllTests-macOS */,
 				C85BA04A1C3878740075D68E /* Microoptimizations */,
 				C8E8BA541E2C181A00A4AC2C /* Benchmarks */,
+				C85E5CD02185DCA600E8CCDA /* RxAtomic */,
 			);
 		};
 /* End PBXProject section */
@@ -4035,6 +4183,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C85BA0491C3878740075D68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85E5CCF2185DCA600E8CCDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4314,6 +4469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8572C6321863E8600FD24D2 /* AtomicInt.swift in Sources */,
 				C85B016D1DB2ACAF006043C3 /* Platform.Linux.swift in Sources */,
 				C88E296B1BEB712E001CCB92 /* RunLoopLock.swift in Sources */,
 				C8941BDF1BD5695C00A0E874 /* BlockingObservable.swift in Sources */,
@@ -4329,6 +4485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8572C6421863E8600FD24D2 /* AtomicInt.swift in Sources */,
 				C85B016E1DB2ACAF006043C3 /* Platform.Linux.swift in Sources */,
 				C88E296C1BEB712E001CCB92 /* RunLoopLock.swift in Sources */,
 				C8941BE01BD5695C00A0E874 /* BlockingObservable.swift in Sources */,
@@ -4470,6 +4627,7 @@
 				C8D970EC1F532FD30058F2FE /* SectionedViewDataSourceMock.swift in Sources */,
 				C822BACE1DB424EC00F98810 /* Reactive+Tests.swift in Sources */,
 				C820A9BE1EB509B500D431BC /* Observable+TakeLastTests.swift in Sources */,
+				C8572C68218645F700FD24D2 /* AtomicInt.swift in Sources */,
 				C820A9AE1EB5073E00D431BC /* Observable+FilterTests.swift in Sources */,
 				C83509511C38706E0027C24C /* HistoricalSchedulerTest.swift in Sources */,
 				C83509521C38706E0027C24C /* MainSchedulerTests.swift in Sources */,
@@ -4664,6 +4822,7 @@
 				C81A097E1E6C27A100900B3B /* Observable+ZipTests.swift in Sources */,
 				C8C4F17B1DE9DF0200003FA7 /* UICollectionView+RxTests.swift in Sources */,
 				C820A96F1EB4F7AC00D431BC /* Observable+SequenceTests.swift in Sources */,
+				C8572C69218645F700FD24D2 /* AtomicInt.swift in Sources */,
 				C820A9A31EB5011700D431BC /* Observable+TakeUntilTests.swift in Sources */,
 				C8C4F1841DE9DF0200003FA7 /* UISegmentedControl+RxTests.swift in Sources */,
 				C820A9EB1EB50E3400D431BC /* Observable+RetryWhenTests.swift in Sources */,
@@ -4808,6 +4967,7 @@
 				C8350A211C38756B0027C24C /* SubjectConcurrencyTest.swift in Sources */,
 				C8353CEE1DA19BC500BE3F5C /* XCTest+AllTests.swift in Sources */,
 				C8D970E51F532FD30058F2FE /* Signal+Test.swift in Sources */,
+				C8572C6A218645F700FD24D2 /* AtomicInt.swift in Sources */,
 				C801DE381F6EAD3C008DB060 /* SingleTest.swift in Sources */,
 				C81B6AAF1DB2C15C0047CF86 /* Platform.Linux.swift in Sources */,
 				C801DE3C1F6EAD48008DB060 /* MaybeTest.swift in Sources */,
@@ -4829,6 +4989,14 @@
 				C85217F31E33ECA00015DD38 /* PerformanceTools.swift in Sources */,
 				C8E8BA721E2C18AE00A4AC2C /* main.swift in Sources */,
 				C8E8BA401E2BBDC800A4AC2C /* (null) in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85E5CCD2185DCA600E8CCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8572C6D21864BF100FD24D2 /* RxAtomic.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4872,6 +5040,7 @@
 				C8FA89181C30409900CD3A17 /* HistoricalScheduler.swift in Sources */,
 				C820A8491EB4DA5900D431BC /* Skip.swift in Sources */,
 				C820A8D91EB4DA5A00D431BC /* Using.swift in Sources */,
+				C8572C5F21863E3F00FD24D2 /* AtomicInt.swift in Sources */,
 				C8093D881B8A72BE0088E94D /* RxMutableBox.swift in Sources */,
 				C8550B4C1D95A41400A6FCFE /* Reactive.swift in Sources */,
 				C820A9251EB4DA5A00D431BC /* CombineLatest.swift in Sources */,
@@ -5120,6 +5289,7 @@
 				C8093D931B8A72BE0088E94D /* MainScheduler.swift in Sources */,
 				C820A8481EB4DA5900D431BC /* Skip.swift in Sources */,
 				C820A8D81EB4DA5A00D431BC /* Using.swift in Sources */,
+				C8572C5E21863E3F00FD24D2 /* AtomicInt.swift in Sources */,
 				C8550B4B1D95A41400A6FCFE /* Reactive.swift in Sources */,
 				CB883B451BE256D4000AC2EE /* BooleanDisposable.swift in Sources */,
 				C820A9241EB4DA5A00D431BC /* CombineLatest.swift in Sources */,
@@ -5284,6 +5454,7 @@
 				C8FA891A1C30409900CD3A17 /* HistoricalScheduler.swift in Sources */,
 				C820A84B1EB4DA5900D431BC /* Skip.swift in Sources */,
 				C820A8DB1EB4DA5A00D431BC /* Using.swift in Sources */,
+				C8572C6121863E3F00FD24D2 /* AtomicInt.swift in Sources */,
 				C8F0BFA01BBBFB8B001B112F /* RxMutableBox.swift in Sources */,
 				C8550B4E1D95A41400A6FCFE /* Reactive.swift in Sources */,
 				C820A9271EB4DA5A00D431BC /* CombineLatest.swift in Sources */,
@@ -5506,6 +5677,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8572C6621863E8600FD24D2 /* AtomicInt.swift in Sources */,
 				C85B01701DB2ACAF006043C3 /* Platform.Linux.swift in Sources */,
 				C88E296E1BEB712E001CCB92 /* RunLoopLock.swift in Sources */,
 				C8941BE21BD5695C00A0E874 /* BlockingObservable.swift in Sources */,
@@ -5666,6 +5838,7 @@
 				0BA949691E224B7E0036DD06 /* AsyncSubject.swift in Sources */,
 				C820A84A1EB4DA5900D431BC /* Skip.swift in Sources */,
 				C820A8DA1EB4DA5A00D431BC /* Using.swift in Sources */,
+				C8572C6021863E3F00FD24D2 /* AtomicInt.swift in Sources */,
 				C8FA89191C30409900CD3A17 /* HistoricalScheduler.swift in Sources */,
 				D2EBEAEA1BB9B697003A27DC /* SchedulerType.swift in Sources */,
 				C820A9261EB4DA5A00D431BC /* CombineLatest.swift in Sources */,
@@ -5786,6 +5959,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8572C6521863E8600FD24D2 /* AtomicInt.swift in Sources */,
 				C85B016F1DB2ACAF006043C3 /* Platform.Linux.swift in Sources */,
 				C88E296D1BEB712E001CCB92 /* RunLoopLock.swift in Sources */,
 				C8941BE11BD5695C00A0E874 /* BlockingObservable.swift in Sources */,
@@ -5855,6 +6029,41 @@
 			target = C88FA50E1C25C4B500CCFEA4 /* RxTest-macOS */;
 			targetProxy = C84CB1701C38769B00EB63CC /* PBXContainerItemProxy */;
 		};
+		C8507B5E21862D4200EAE7A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85E5CD02185DCA600E8CCDA /* RxAtomic */;
+			targetProxy = C8507B5D21862D4200EAE7A6 /* PBXContainerItemProxy */;
+		};
+		C8572C512186398A00FD24D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85E5CD02185DCA600E8CCDA /* RxAtomic */;
+			targetProxy = C8572C502186398A00FD24D2 /* PBXContainerItemProxy */;
+		};
+		C8572C532186399D00FD24D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85E5CD02185DCA600E8CCDA /* RxAtomic */;
+			targetProxy = C8572C522186399D00FD24D2 /* PBXContainerItemProxy */;
+		};
+		C8572C55218639A300FD24D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85E5CD02185DCA600E8CCDA /* RxAtomic */;
+			targetProxy = C8572C54218639A300FD24D2 /* PBXContainerItemProxy */;
+		};
+		C8572C57218639AE00FD24D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85E5CD02185DCA600E8CCDA /* RxAtomic */;
+			targetProxy = C8572C56218639AE00FD24D2 /* PBXContainerItemProxy */;
+		};
+		C8572C59218639BF00FD24D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85E5CD02185DCA600E8CCDA /* RxAtomic */;
+			targetProxy = C8572C58218639BF00FD24D2 /* PBXContainerItemProxy */;
+		};
+		C8572C5B218639C500FD24D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85E5CD02185DCA600E8CCDA /* RxAtomic */;
+			targetProxy = C8572C5A218639C500FD24D2 /* PBXContainerItemProxy */;
+		};
 		C85BA05C1C3878D00075D68E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C88BB81A1B07E5ED0064D411 /* RxSwift-macOS */;
@@ -5874,6 +6083,11 @@
 			isa = PBXTargetDependency;
 			target = C88FA50E1C25C4B500CCFEA4 /* RxTest-macOS */;
 			targetProxy = C85BA0611C3878D00075D68E /* PBXContainerItemProxy */;
+		};
+		C85E5CDD2185F55300E8CCDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85E5CD02185DCA600E8CCDA /* RxAtomic */;
+			targetProxy = C85E5CDC2185F55300E8CCDA /* PBXContainerItemProxy */;
 		};
 		C872BD1C1BC0529600D7175E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5962,7 +6176,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = iphoneos;
@@ -5979,7 +6197,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = iphoneos;
@@ -5996,7 +6218,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = iphoneos;
@@ -6012,10 +6238,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = macosx;
@@ -6031,10 +6260,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = macosx;
@@ -6050,10 +6282,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = macosx;
@@ -6070,7 +6305,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = iphoneos;
@@ -6087,7 +6326,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = iphoneos;
@@ -6104,7 +6347,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = iphoneos;
@@ -6120,10 +6367,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = macosx;
@@ -6139,10 +6389,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = macosx;
@@ -6158,10 +6411,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = macosx;
@@ -6181,7 +6437,11 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.AllTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -6196,7 +6456,11 @@
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.AllTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -6212,7 +6476,11 @@
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.AllTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -6225,15 +6493,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.AllTests-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/RxCocoaTests/RxTest-tvOS-Bridging-Header.h";
 				TVOS_DEPLOYMENT_TARGET = 9.1;
@@ -6244,10 +6519,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.AllTests-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/RxCocoaTests/RxTest-tvOS-Bridging-Header.h";
 				SWIFT_REFLECTION_METADATA_LEVEL = none;
@@ -6259,10 +6541,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.AllTests-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/RxCocoaTests/RxTest-tvOS-Bridging-Header.h";
 				SWIFT_REFLECTION_METADATA_LEVEL = none;
@@ -6282,7 +6571,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.AllTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6298,7 +6591,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.AllTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6315,7 +6612,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.AllTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6337,7 +6638,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Microoptimizations/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.PerformanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6352,7 +6656,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Tests/Microoptimizations/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.PerformanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6367,11 +6674,123 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Tests/Microoptimizations/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.PerformanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = "Release-Tests";
+		};
+		C85E5CD62185DCA600E8CCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RxAtomic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxAtomic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4";
+			};
+			name = Debug;
+		};
+		C85E5CD72185DCA600E8CCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RxAtomic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxAtomic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator watchos watchsimulator";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4";
+			};
+			name = Release;
+		};
+		C85E5CD82185DCA600E8CCDA /* Release-Tests */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RxAtomic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxAtomic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator watchos watchsimulator";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 			};
 			name = "Release-Tests";
 		};
@@ -6408,6 +6827,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_BITCODE = YES;
+				"ENABLE_BITCODE[sdk=macosx10.12]" = NO;
+				"ENABLE_BITCODE[sdk=macosx10.13]" = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -6425,8 +6846,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "-D TRACE_RESOURCES";
-				SDKROOT = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -6446,7 +6867,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = iphoneos;
@@ -6462,10 +6887,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = macosx;
@@ -6481,10 +6909,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = macosx;
@@ -6500,10 +6931,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = macosx;
@@ -6519,11 +6953,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
 				PRODUCT_NAME = RxTest;
@@ -6540,11 +6977,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
 				PRODUCT_NAME = RxTest;
@@ -6561,11 +7001,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
 				PRODUCT_NAME = RxTest;
@@ -6587,7 +7030,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					XCTest,
@@ -6613,7 +7060,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					XCTest,
@@ -6639,7 +7090,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					XCTest,
@@ -6665,7 +7120,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
 				PRODUCT_NAME = RxTest;
@@ -6688,7 +7147,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
 				PRODUCT_NAME = RxTest;
@@ -6711,7 +7174,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
 				PRODUCT_NAME = RxTest;
@@ -6734,7 +7201,11 @@
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
 				PRODUCT_NAME = RxTest;
 				SDKROOT = watchos;
@@ -6756,7 +7227,11 @@
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
 				PRODUCT_NAME = RxTest;
 				SDKROOT = watchos;
@@ -6778,7 +7253,11 @@
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
 				PRODUCT_NAME = RxTest;
 				SDKROOT = watchos;
@@ -6819,6 +7298,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_BITCODE = YES;
+				"ENABLE_BITCODE[sdk=macosx10.12]" = NO;
+				"ENABLE_BITCODE[sdk=macosx10.13]" = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -6842,7 +7323,6 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-D TRACE_RESOURCES -D DEBUG -Xfrontend -debug-time-function-bodies -Xfrontend -warn-long-expression-type-checking=100 -Xfrontend -warn-long-function-bodies=100";
-				SDKROOT = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6886,6 +7366,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_BITCODE = YES;
+				"ENABLE_BITCODE[sdk=macosx10.12]" = NO;
+				"ENABLE_BITCODE[sdk=macosx10.13]" = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -6902,8 +7384,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "-D RELEASE";
-				SDKROOT = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -6923,7 +7405,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = iphoneos;
@@ -6940,7 +7426,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = iphoneos;
@@ -6962,7 +7452,11 @@
 				);
 				INFOPLIST_FILE = Tests/Benchmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.Benchmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -6979,7 +7473,11 @@
 				DEVELOPMENT_TEAM = 783T66X79Y;
 				INFOPLIST_FILE = Tests/Benchmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.Benchmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -6995,7 +7493,11 @@
 				DEVELOPMENT_TEAM = 783T66X79Y;
 				INFOPLIST_FILE = Tests/Benchmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.Benchmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -7013,7 +7515,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = watchos;
@@ -7033,7 +7539,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = watchos;
@@ -7053,7 +7563,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = watchos;
@@ -7073,7 +7587,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = watchos;
@@ -7093,7 +7611,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = watchos;
@@ -7113,7 +7635,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = watchos;
@@ -7133,7 +7659,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = watchos;
@@ -7153,7 +7683,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = watchos;
@@ -7173,7 +7707,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = watchos;
@@ -7192,7 +7730,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = appletvos;
@@ -7211,7 +7753,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = appletvos;
@@ -7230,7 +7776,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxCocoa;
 				SDKROOT = appletvos;
@@ -7250,7 +7800,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RxSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = appletvos;
@@ -7269,7 +7823,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RxSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = appletvos;
@@ -7288,7 +7846,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RxSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = appletvos;
@@ -7307,7 +7869,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = appletvos;
@@ -7326,7 +7892,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = appletvos;
@@ -7345,7 +7915,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RxBlocking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RxBlocking;
 				SDKROOT = appletvos;
@@ -7433,6 +8007,16 @@
 				C85BA0551C3878750075D68E /* Debug */,
 				C85BA0561C3878750075D68E /* Release */,
 				C85BA0571C3878750075D68E /* Release-Tests */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85E5CD92185DCA600E8CCDA /* Build configuration list for PBXNativeTarget "RxAtomic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85E5CD62185DCA600E8CCDA /* Debug */,
+				C85E5CD72185DCA600E8CCDA /* Release */,
+				C85E5CD82185DCA600E8CCDA /* Release-Tests */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
